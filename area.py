@@ -7,3 +7,4 @@ print = (f"height, {height} ,base, {base}: ")
 area = 0.5 * height * base
 
 print = (f"area, {area}: ")
+

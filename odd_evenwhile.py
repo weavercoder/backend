@@ -1,10 +1,9 @@
 while True:
-    number = float(input("enter your number "))
+    number = float(input("enter the number:-  "))
     if number % 2 == 0:
         print("you have entered an even number")
         break
-    elif number %2 !=0:
-        print("you have entered an odd number:_")
-
+    elif number % 2 !=0:
+        print("You have entered an odd number:- ")
     else:
-        print("invalid input.Please enter a valid number")
+        print("Invalid input enter ane even number:- ")

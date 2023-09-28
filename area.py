@@ -1,12 +1,8 @@
-# Input the height and base as numbers
-height = float(input("Enter the height: "))
-base = float(input("Enter the base: "))
+height = float(input("enter the height: "))
+width =  float(input("enter the width: "))
 
-# Calculate the area of the triangle
-area = 0.5 * height * base
+#calculate area
+area = 0.5 * height * width
 
-# Display the results
-
-print(f"The area of the triangle is {area}.")
-
-print(f"The height is {height} and the base is {base}.")
+print(f"The height is {height} and the width is {width}:")
+print(f"The area of the triangle is {area}: ")

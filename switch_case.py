@@ -1,3 +1,5 @@
+#switch_case function
+
 def odd_even(number):
     if number == 0:
         return "even"

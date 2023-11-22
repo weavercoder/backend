@@ -1,4 +1,5 @@
 #switch_case function
+#a function is  like a first citzen class
 
 def odd_even(number):
     if number == 0:

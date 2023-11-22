@@ -1,10 +1,13 @@
-#initialize a variable to store our multiples
+
+#A program that gets sum of all multiples of  3 or 5 below 1000
+
+#initialize a variable to store the sum
 sum_of_multiples = 0
 
-#set a counter
+#initialize a variable for the current number
 number = 1
 
-while number < 1000:
+while number <= 1000:
     
     if number % 3  == 0 or  number % 5  == 0:
     

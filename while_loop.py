@@ -7,6 +7,8 @@ sum_of_multiples = 0
 #initialize a variable for the current number
 number = 1
 
+
+
 while number <= 1000:
     
     if number % 3  == 0 or  number % 5  == 0:

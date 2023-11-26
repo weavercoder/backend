@@ -9,6 +9,7 @@ number = 1
 while number <= 1000:
     if number % 3 == 0 or number % 5 == 0:
         # Add multiples to the sum
+
         sum_of_multiples += number
 
     # Increment the number for the next iteration

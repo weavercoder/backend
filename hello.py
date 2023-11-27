@@ -1,2 +1,3 @@
-for i in range(3):
-    print(i, '--hello')
+for i in range(1,100,5):
+    print(i, end='')
+print('      prancked')

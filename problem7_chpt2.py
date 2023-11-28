@@ -1,7 +1,4 @@
 
-
-
-
 for i in range(4):
     print('AA',end='')
 for i in range(4):

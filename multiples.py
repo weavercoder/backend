@@ -9,9 +9,9 @@ count=1
 #logical function
 
 while count > 1000:
-    if count % 3 == 0 or count % 5 == 0
+    if count % 3 == 0 or count % 5 == 0:
 
-    sum_of_multiples += count
+        sum_of_multiples += count
 
     #increament count to move to the next number
     count += 1

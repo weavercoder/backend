@@ -11,7 +11,7 @@ if grade >=60 and grade < 70:
 if grade <60:
     print('F')  '''
 
-grade = eval(input('enter grade'))
+grade = eval(input('enter grade:    '))
 if grade >= 90:
     print('A') 
 elif grade >=80:
@@ -20,6 +20,6 @@ elif grade >=70:
     print('C')
 elif grade >=60:
     print('D')
-elif grade <60:
+else: 
     print('F')
 

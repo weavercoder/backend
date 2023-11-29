@@ -1,17 +1,20 @@
+
 temp=eval(input('Enter temparature   : '))
-unit=eval(input('ferenheit or celcius    :'))
-f_temp = 9/5 *temp +32
-c_temp = 5/9 * temp - 32
+unit=input('ferenheit or celcius    :')
 
-if unit == ('celcius'):
+if unit == 'celcius':  
+     
 
-    f_temp = 9/5 *temp +32
+     f_temp = 9/5 *temp +32
     
-    print(f'the temparature in farenheit,{f_temp}')
+     print(f'the temparature in farenheit,{f_temp}')
+ 
+elif unit == 'ferenheit':
 
-elif unit == ('ferenheit'):
-    c_temp = 5/9 * temp - 32
-    print(f'the temparature in celcius,{c_temp}')
+     c_temp = 5/9 * temp - 32
+     print(f'the temparature in celcius,{c_temp}')
+else:
+     print("Enter the correct details (ferenheit or celcius)      :")
 
 
 

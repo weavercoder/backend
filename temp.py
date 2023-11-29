@@ -30,3 +30,6 @@ elif x == 100:
 elif x >  100:
 
     print("The temparature is above boiling point  :")
+
+
+print()

@@ -1,3 +1,4 @@
+#A program that asks temparature input and converts to either celcius/ferenheit
 
 temp=eval(input('Enter temparature   : '))
 unit=input('ferenheit or celcius    :')

@@ -16,7 +16,7 @@ result=generate_fibonacci(num_seq)
 print(f'The fibonacci sequence for',num_seq,'th number is',result)
 
 
-#print generate_fibonacci(10)
+#print (generate_fibonacci(10))
 
 
 

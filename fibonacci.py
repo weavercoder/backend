@@ -13,7 +13,7 @@ num_seq=eval(input('Enter the number to genarate sequence     :'))
 
 result=generate_fibonacci(num_seq)
 
-print('The fibonacci sequence from',num_seq,'th number is',result)
+print(f'The fibonacci sequence for',num_seq,'th number is',result)
 
 #print (generate_fibonacci(10))
 

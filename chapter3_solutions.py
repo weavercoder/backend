@@ -4,7 +4,6 @@ y = eval(input('Enter y: '))
 print(x ** y)
 
 
-
 #2 calculation
 print((9 + 3) / (8 - 2))
 
@@ -15,12 +14,10 @@ num_cards = eval(input('How many cards do you have? '))
 print('After reducing, you now have:', num_cards // 2)
 
 
-
 #4 distance
 x = eval(input('Enter one number: '))
 y = eval(input('Enter another number: '))
 print('Distance between them is', abs(x-y))
-
 
 
 #5 rounded square root of a number
@@ -28,7 +25,6 @@ from math import sqrt
 
 x = eval(input('Enter a positive number: '))
 print('To 2 decimal place, its square root is', round(sqrt(x),2))
-
 
 
 #6 rounded square roots of numbers from 1 to 20

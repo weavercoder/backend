@@ -7,5 +7,5 @@ elif days== 30:
 elif days == 31:
     print      ('Jan,Mar,May,Jul,Aug,Oct,Dec')
 else:
-    print('Error')
+    print      ('Error')
 

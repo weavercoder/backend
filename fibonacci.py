@@ -1,31 +1,11 @@
 #A program that generate fibonacci numbers requested by the user
 
-#num = eval('How many fibonacci numbers do you want to print    :')
+def generate_fibonacci(n):
+    fibonacci_sequence=[0,1]
 
-#count = (0,1)
+    for _ in range(2,n):
+        next_number=fibonacci_sequence[-1]+fibonacci_sequence[-2]
+        fibonacci_sequence.append(next_number)
+    return fibonacci_sequence
 
-#or count in range(num):
-
-'''for i in range(1,100,5):
-    print(i,end='')
-
-print()'''
-
-for i in range(2,89):
-    print(i,end='')
-print()
-    
-    
-
-   
-   
-    
-        
-
-    
-
-    
-
-
-
-
+#get the user to input the number of the terms

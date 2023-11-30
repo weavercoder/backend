@@ -9,8 +9,8 @@ temp=(eval(input('Enter temparature in celcius      :')))
         
 result=convert(temp)
 
-print('The conversion of',temp,'celcius is',result,'farenheit')
+print('The conversion of',temp,'celcius to farenheit is',result)
 
+print()
 
-
-
+print()

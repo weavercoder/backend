@@ -1,11 +1,11 @@
 #Days per month
 days=eval(input('Enter number of days     : '))
 if days == 28 or days == 29:
-    print('Feb')
+    print      ('Feb')
 elif days== 30:
-    print('April.jun,sep,Nov')
+    print      ('April.jun,sep,Nov')
 elif days == 31:
-    print('Jan,Mar,May,Jul,Aug,Oct,Dec')
+    print      ('Jan,Mar,May,Jul,Aug,Oct,Dec')
 else:
     print('Error')
 

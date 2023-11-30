@@ -9,3 +9,15 @@ def generate_fibonacci(n):
     return fibonacci_sequence
 
 #get the user to input the number of the terms
+num_seq=eval(input('Enter the number to genarate sequence     :'))
+
+result=generate_fibonacci(num_seq)
+
+print('The fibonacci sequence from',num_seq,'th number is',result)
+
+#print (generate_fibonacci(10))
+
+
+
+
+

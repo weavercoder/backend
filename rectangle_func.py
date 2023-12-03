@@ -8,9 +8,8 @@ m=eval(input('Enter the height:    '))
 n=eval(input('Enter the width:     '))
 
 
-
-
 rectangle()
+
 
   
 

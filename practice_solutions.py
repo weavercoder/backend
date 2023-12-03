@@ -14,10 +14,8 @@ print(' *     *')
 print('*       *')
 
 
-
 #3 printing a computation
 print((14*12) / (33*144 - 187))
-
 
 
 #4 km to miles
@@ -38,12 +36,10 @@ num2 = eval(input('Enter another number: '))
 print('The sum is: ', num1 + num2)
 
 
-
 #7 BMI
 w = eval(input('Enter weight: '))
 h = eval(input('Enter height: '))
 print('The BMI is: ', 703*w/(h*h))
-
 
 
 #8 5 numbers separated by 3 spaces
@@ -53,8 +49,6 @@ n3 = eval(input('Enter third number: '))
 n4 = eval(input('Enter fourth number: '))
 n5 = eval(input('Enter fifth number: '))
 print(n1, n2, n3, n4, n5, sep='   ')
-
-
 
 #9 variables
 c = eval(input('Enter a number: '))
@@ -96,7 +90,6 @@ for i in range(1,6):
 for i in range(1,21):
     print(i*i, end=' ')
 print()    
-
 
 #8 40 A's, then 50 B's
 for i in range(40):
@@ -162,18 +155,14 @@ print(x ** y)
 #2 calculation
 print((9 + 3) / (8 - 2))
 
-
-
 #3 board game card reduction
 num_cards = eval(input('How many cards do you have? '))
 print('After reducing, you now have:', num_cards // 2)
-
 
 #4 distance
 x = eval(input('Enter one number: '))
 y = eval(input('Enter another number: '))
 print('Distance between them is', abs(x-y))
-
 
 #5 rounded square root of a number
 from math import sqrt
@@ -203,7 +192,6 @@ print('Angle is:', round(degrees(atan2(y, x)), 1))
 hour = eval(input('What hour is it now? '))
 delta = eval(input('How many hours into the future do you want to go? '))
 print('New hour is', (hour + delta) % 24)
-
 
 
 #9 inches to feet & inches
@@ -300,8 +288,6 @@ elif 0 < temp < 35:
 else:
     print('Warning: High temperature.')
 
-
-
 #4 Days in a month
 days = eval(input('Enter number of days: '))
 if days == 28 or days == 29:
@@ -312,8 +298,6 @@ elif days == 31:
     print('Jan, Mar, May, Jul, Aug, Oct, Dec')
 else:
     print('Error')
-
-
 
 #5 Feet conversion
 feet = eval(input('Enter a length in feet: '))
@@ -326,7 +310,6 @@ elif unit == 'meters':
     print('In meters, that is', feet*.3048)
 else:
     print('Not a valid unit.')
-
 
 
 #6 Spanish numbers
@@ -351,12 +334,10 @@ else:
     print('Number needs to be from 20 to 99.')
 
 
-
 #7 Number not satisfying a variety of conditions
 num = eval(input('Enter a number: '))
 if not (num==0 or num==2 or num==5 or 10<num<15 or 20<num<25):
     print('Okay.')
-
 
 
 #8 Divisibility by 7
@@ -367,13 +348,11 @@ else:
     print('Not divisible by 7.')
 
 
-
 #9 Numbers from 1 to 100 divisible by 3 or 7, but not both
 for i in range(1, 101):
     if (i%3 == 0 or i%7==0) and not (i%3 == 0 and i%7 == 0):
         print(i, end=' ')
 print()
-
 
 
 #10 100 random question marks and asterisks
@@ -385,7 +364,6 @@ for i in range(100):
     else:
         print('*', end='')
 print()
-
 
 
 #11 100 random As, Bs, Cs, Ds, or Es
@@ -405,7 +383,6 @@ for i in range(100):
 print()
 
 
-
 #12 100 random zeros and ones, zeroes twice as likely
 from random import randint
 for i in range(100):
@@ -415,7 +392,6 @@ for i in range(100):
     else:
         print('0', end='')
 print()
-
 
 
 #13 Billing program
@@ -453,8 +429,6 @@ for x in range(1,101):
     if 21*x**2 - x**3 + 21904 == 0:
         print(x)
 
-
-
 #17 Multiplication game
 from random import randint
 for i in range(10):
@@ -482,13 +456,11 @@ print()
 print('There were', count, 'fives.')
 
 
-
 #2 Add up 1 through 100
 total = 0
 for i in range(1, 101):
     total += i
 print(total)
-
 
 
 #3 Add up the sines of the numbers 1 to 100
@@ -652,8 +624,6 @@ else:
     print('Smallest between 50 and 100:', smallest)
 
 
-
-
 #14 Get 10 numbers from user, print out two smallest
 a = eval(input('Enter a number:'))
 b = eval(input('Enter a number:'))
@@ -685,9 +655,6 @@ for i in range(n-2):
     b = hold
     print(a, end=' ')
 print()
-
-
-
 
 #16 Generate sequence that starts w/ 1, 2, 3 and each term is average of three previous
 n = eval(input('Enter n: '))
@@ -734,16 +701,12 @@ else:
 print('(j) All caps:', s.upper())
 print('(k) Replace spaces with underscores:', s.replace(' ', '_'))
 
-
-
 #4 Ask for two strings, repeat first 10 times, concatenate the two
 s = input('Enter a string: ')
 t = input('Enter another string: ')
 
 print('Repeated 10 times:', s*10)
 print('Concatenation:', s+t)
-
-
 
 #5 Float or integer?
 s = input('Enter a number: ')
@@ -940,7 +903,6 @@ for i in range(len(s)):
         print(i, end=' ')
 print()
 
-
 #26 String changing from all As to all Bs.
 n = eval(input('Enter n: '))
 for i in range(n+1):
@@ -984,13 +946,9 @@ print('(k) After changing second-to-last item:', L)
 L.append(-500)
 print('(l) After appending -500 to list:', L)
 
-
-
 #2 Create list of 100 zeroes
 L = [0] * 100
 print(L)
-
-
 
 #3 Copying lists
 #(a)
@@ -1025,8 +983,6 @@ for i in range(10):
     L.append(randint(1, 20))
 print(L)
 
-
-
 #6 Generate list of 20 random 0s and 1s, print out how many zeros.
 from random import randint
 
@@ -1035,8 +991,6 @@ for i in range(20):
     L.append(randint(0, 1))
 print(L)
 print('Number of zeroes:', L.count(0))
-
-
 
 #7 Count number of evens in a user's list.
 L = eval(input('Enter a list: '))
@@ -1056,8 +1010,6 @@ for x in L:
         M.append(x)
 print(M)
 
-
-
 #9 Given a list, find the smallest thing and the first index at which it occurs.
 L = eval(input('Enter a list: '))
 best = 0
@@ -1065,7 +1017,6 @@ for i in range(len(L)):
     if L[i] < L[best]:
         best = i
 print('Smallest item is', L[best], 'first occuring at index', best)
-
 
 
 #10 Given a list with some items greater than 10, print out smallest thing larger than 10.
@@ -1268,8 +1219,6 @@ if count == 0:
 else:
     print('New list:', L)
 
-
-
 #25 Estimate probabilty of a large straight in Yahtzee
 from random import randint
 
@@ -1291,8 +1240,6 @@ for i in range(len(L)-1):
     j = randint(1, len(L))
     L[i], L[j] = L[j], L[i]
 print(L)
-
-
 
 
 #27 Given list of strings and list of indices create a new list of all the strings from the list that are not at those indices.

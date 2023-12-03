@@ -1,7 +1,4 @@
 
-
-#from unittest import result
-
 #A program to generate a fibonacci sequence for the nth term
 
 def generate_sequence(n):

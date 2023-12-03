@@ -1304,8 +1304,6 @@ Adjectives = ['old', 'new', 'dirty', 'shiny', 'red', 'cold',
               'fake', 'happy', 'funny', 'heavy']
 print('The', choice(Adjectives), choice(Nouns), choice(Verbs), 'the', choice(Nouns)+'.')
 
-
-
 #6 Generate random sentences, make sure the nouns are different.
 from random import choice, sample
 
@@ -1350,7 +1348,6 @@ for i in range(len(s)):
     else:
         t += s[i]
 print(t)
-
 
 
 #9 One-by-one replace the characters in a word with asterisks.
@@ -1413,14 +1410,10 @@ for word in s.split():
     L.append(word[0].upper() + word[1:])
 print(' '.join(L))
 
-
-
 #15 List of rearrangements.
 from itertools import permutations
 for x in permutations('abcd'):
     print(''.join(x))
-
-
 
 #16 Print out the last word of every sentence.
 s = input('Enter several sentences ending with periods (with no periods except at the end of sentences): ')
@@ -1489,8 +1482,6 @@ for x in L:
     else:
         M[4].append(x)
 print(M)
-
-
 
 #19 Create 6 x 6 list of random integers from 0 to 9 and do stuff with it.
 from random import randint

@@ -1540,8 +1540,6 @@ for i in range(len(M)):
         print(M[i][j], end=' ')
     print()
 
-
-
 #20 Battleship tell if a cell is a hit or miss on a 10 x 10 list.
 from random import randint
 
@@ -1559,7 +1557,6 @@ if L[r][c] == 1:
 else:
     print('Miss!')
         
-
 
 #21 Create 6 x 6 list and add up entries in a range specified by user.
 from random import randint
@@ -1580,8 +1577,6 @@ for i in range(r1, r2+1):
     for j in range(c1, c2+1):
         total += L[i][j]
 print(total)
-
-
 
 #22 Add up entries on or below the main diagonal of a 15 x 15 list of 1s, 2s, and 3s. 
 from random import randint
@@ -1612,11 +1607,14 @@ for i in range(len(L)):
     print()
 
 flag = False
+
 # check horizontal
 for i in range(len(L)):
     for j in range(1,len(L[i])):
         if L[i][j] == L[i-1][j] == 0:
             flag = True
+
+
 # check vertical
 for i in range(1,len(L)):
     for j in range(len(L[i])):
@@ -1667,6 +1665,8 @@ for i in range(len(M)):
     for j in range(len(M[i])):
         print(M[i][j], end=' ')
     print()
+
+
 #1 Print 2, 5, 8, 11, 14, 17, 20 with a while loop.
 i = 2
 print(i, end=' ')
@@ -1685,8 +1685,6 @@ while i > 1:
     print(i, end=' ')
 print()
 
-
-
 #3 User enters numbers until a negative.  Then sum is printed, excluding negative.
 num = 0
 total = 0
@@ -1695,8 +1693,6 @@ while num >= 0:
     if num >= 0:
         total += num
 print(total)
-
-
 
 #4 User enters numbers from 1 to 10, stopping with a 5.  Print out how many numbers and whether a 3 was entered.
 num = 0
@@ -1713,14 +1709,11 @@ if flag:
 else:
     print('No')
 
-
-
 #5 User enters a string of at least five chars, keep prompting until they do so properly.  Print out fifth char of their string.
 s = ''
 while len(s) < 5:
     s = input('Enter a string of at least 5 characters: ')
 print(s[4])
-
 
 
 #6 User enters a string of a least five chars, keep prompting until they do.  Then they enter an index in that string.  Keep prompting until it's valid.  Then print out char of their string at that index.
@@ -1733,8 +1726,6 @@ while i < 0 or i >= len(s):
     if i < 0 or i >= len(s):
         print('Please enter a valid index.')
 print(s[i])
-
-
 
 #7 Repeatedly ask the user for a string and print out if it is a palindrome or not.  User stops by pressing enter.
 s = 'a'

@@ -9,7 +9,7 @@ def generate_sequence(n):
 
         fibonacci_sequence.append(next_term)
     return fibonacci_sequence
-
+    
 new_term=eval(input('Enter the number: '))
 
 result=generate_sequence(new_term)

@@ -1,6 +1,6 @@
 
 
-from unittest import result
+#from unittest import result
 
 #A program to generate a fibonacci sequence for the nth term
 

@@ -2209,8 +2209,6 @@ for i in range(9):
         print('(', i, ',', j, ')', sep='', end=' ')
     print()
 
-
-
 #17
 #(a) Like previous, but don't display things above the diagonal.  
 for i in range(9):

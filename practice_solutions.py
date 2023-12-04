@@ -2030,7 +2030,6 @@ num = input('Enter a number that has commas in it: ')
 print(sqrt(float(num.replace(',', ''))))
 
 
-
 #4 Create the list ['a1', 'b2', ..., 'z26']
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 L = []
@@ -2066,8 +2065,6 @@ for i in range(100, 121):
     shuffle(L)
     print(i, ''.join(L))
 
-
-
 #7 Generate a random password with at least one capital, lowercase, digit, and special char.
 from random import choice, shuffle
 
@@ -2084,8 +2081,6 @@ for i in range(n - 4):
 L = list(s)
 shuffle(L)
 print(''.join(L))
-
-
 
 #8 Randomly choose 10 valid dates
 #(a) Done by randomly choosing a month and then a day
@@ -2178,13 +2173,10 @@ seconds = int(M[1])
 print(degrees + minutes/60 + seconds/3600)
 
 
-
 #13 Ask for list of product costs and print out costs w/ 6% tax added, right-justified and displayed to two decimal places.
 L = eval(input('Enter a list of product costs: '))
 for x in L:
     print('{:6.2f}'.format(x*1.06))
-
-
 
 #14 Print out table of sines and cosines of angles from 0 to 360 by 30s, with angles right justified and sines and cosines shown to 4 decimal places.
 from math import sin, cos, radians

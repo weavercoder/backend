@@ -1594,8 +1594,6 @@ for i in range(len(L)):
         total += L[i][j]
 print(total)
 
-
-
 #23 Determine if there are consecutive horizontal or vertical zeroes in a random 6x6 list of integers from 0 to 5.
 from random import randint
 
@@ -1652,8 +1650,6 @@ for i in range(len(M)):
     for j in range(len(M[i])):
         print(M[i][j], end=' ')
     print()
-
-
 
 #26 10 x 10 list of zeroes and ones where each entry has a 90% chance of being 0 and a 10% chance of being 1.
 from random import choice
@@ -1715,7 +1711,6 @@ while len(s) < 5:
     s = input('Enter a string of at least 5 characters: ')
 print(s[4])
 
-
 #6 User enters a string of a least five chars, keep prompting until they do.  Then they enter an index in that string.  Keep prompting until it's valid.  Then print out char of their string at that index.
 s = ''
 while len(s) < 5:
@@ -1736,8 +1731,6 @@ while s != '':
     else:
         print('Not a palindrome.')
 
-
-
 #8 Ask for a number between 20 and 100.  Then repeatedly subtract random numbers from 1 to 10 until the number becomes negative.
 from random import randint
 
@@ -1747,8 +1740,6 @@ while num >= 0:
     num -= randint(1,10)
     print(num, end=' ')
 print()
-
-
 
 #9 Ask for a number, print Collatz sequence starting at that number until 1.
 num = eval(input('Enter a positive integer: '))
@@ -1760,8 +1751,6 @@ while num != 1:
         num = 3*num + 1
     print(num, end=' ')
 print()
-
-
 
 #10 Create list of random numbers from 1 to 10, stopping when fifth 10 is generated.
 from random import randint
@@ -1916,7 +1905,6 @@ while True:
     print(s)
 
 
-
 #19 Create list of the first n primes
 n = eval(input('How many primes? '))
 Primes = []
@@ -1931,8 +1919,7 @@ while n > 0:
     p += 1
 print(Primes)    
         
-
-    
+   
 #20 Generate random numbers until a repeat happens.
 from random import randint
 n = eval(input('Enter n: '))
@@ -2018,7 +2005,8 @@ elif j < len(L2):
     for k in range(i, len(L2)):
         M.append(L2[k])
 print(M)
-                   
+
+
  #1 Validate a course code in the form of some letters, a space, and then some numbers.  Numbers must be in range 100 to 499.
 code = input('Enter course code: ')
 num = int(code.split(' ')[1])
@@ -2033,7 +2021,6 @@ total = 0
 for n in s.split(';'):
     total += int(n)
 print(total)
-
 
 
 #3 User enters a comma-separated number, print its square root.
@@ -2149,7 +2136,6 @@ for i in range(10):
 print('You got', count, 'right.')
 
 
-
 #10 Generate 20 random multiplication problems with numbers from 2 to 12, but no 10s
 #(a) Using randint and a while loop to avoid 10
 from random import randint
@@ -2172,8 +2158,6 @@ P = [2,3,4,5,6,7,8,9,11,12]
 L = [str(choice(P)) + ' x ' + str(choice(P)) for i in range(20)]
 print(L)
 
-
-
 #11 User enters day in month/day format, then print out if date is real.
 Days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 s = input('Enter a numerical date in month/day format: ')
@@ -2182,7 +2166,6 @@ month = int(L[0])
 day = int(L[1])
 if not (1 <= month <= 12) or not (1 <= day <= Days[month-1]):
     print('Invalid date.')
-
 
 
 #12 Convert degrees-minutes-seconds form to decimal form

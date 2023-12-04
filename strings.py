@@ -1,3 +1,4 @@
+
 #18 Determine if strings differ in exactly one position
 s1 = input('Enter string 1: ')
 s2 = input('Enter string 2: ')

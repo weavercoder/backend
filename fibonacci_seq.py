@@ -10,10 +10,8 @@ def generate_sequence(n):
         fibonacci_sequence.append(next_term)
     return fibonacci_sequence
     
-#new_term=eval(input('Enter the number: '))
+new_term=eval(input('Enter the number: '))
 
-#result=generate_sequence(new_term)
+result=generate_sequence(new_term)
 
-#print('The fibonacci sequence generated from',new_term,'th term is',result)
-
-generate_sequence(9)
+print('The fibonacci sequence generated from',new_term,'th term is',result)

@@ -2222,14 +2222,11 @@ for i in range(9):
         print('(', i, ',', j, ')', sep='', end=' ')
     print()
 
-
-
 #18 Use nested loops to find all integer solutions to 37x+14y=11 for x and y between -100 and 100.
 for x in range(-100, 101):
     for y in range(-100, 101):
         if 37*x+14*y == 11:
             print(x, y)
-
 
 
 #19 Given a list of integers, print out first index of a repeat and stop.  Print out a message if there are no repeats.

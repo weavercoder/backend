@@ -1,9 +1,12 @@
 
 
-def sum_digits(a,b):
-    return  a+b
+def sum_digits(num):
+    
+    return  sum(int(digit) for digit in str(num))
 
-sum_digits(9,10)
+result =sum_digits(123)
+print(result)
+
    
 
    

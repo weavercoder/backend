@@ -2192,8 +2192,6 @@ from math import sin, cos, radians
 for a in range(0, 361, 30):
     print('{:3d}    {:6.3f}   {:6.3f}'.format(a, sin(radians(a)), cos(radians(a))))
 
-
-
 #15 Given some lists, display them nicely with birthdays formatted with leading zeroes if single digits, and add commas to the salaries.
 Names = ['Alice', 'Bob', 'Caroline']
 Birthdays = ['2/7/86', '11/12/66', '8/17/72']
@@ -2204,8 +2202,6 @@ for i in range(len(Names)):
     day = int(day)
     month = int(month)
     print('{:10s}  {:02d}/{:02d}/{:2s}  {:,d}'.format(Names[i], day, month, year, int(Salaries[i])))
-
-
 
 #16 Use nested loops to print table from (1,1) to (9,9).
 for i in range(9):

@@ -2266,14 +2266,14 @@ print(list(d.values()))
 
 
 #2 Dictionary of elements in periodic table
-d = {'H' : 'Hydrogen',
+d = {'H'  : 'Hydrogen',
      'He' : 'Helium',
      'Li' : 'Lithium',
      'Be' : 'Beryllium',
-     'B' : 'Boron',
-     'C' : 'Carbon',
-     'N' : 'Nitrogen',
-     'F' : 'Fluorine',
+     'B'  : 'Boron',
+     'C'  : 'Carbon',
+     'N'  : 'Nitrogen',
+     'F'  : 'Fluorine',
      'Ne' : 'Neon'}
 s = input('Enter element symbol: ')
 print('It\'s name is:', d[s])
@@ -2793,6 +2793,7 @@ for x in d:
         if y not in d[x] and  y != 1:
             print(x, y, sep='-', end=', ')
 print()
+
 #1 triangular --- Takes an integer n and returns n(n+1)/2.
 def triangular(n):
     return n*(n+1)//2

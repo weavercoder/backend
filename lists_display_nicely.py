@@ -1,6 +1,4 @@
-
 #15 Given some lists, display them nicely with birthdays formatted with leading zeroes if single digits, and add commas to the salaries.
-
 
 Names = ['Alice', 'Bob', 'Caroline']
 Birthdays = ['2/7/86', '11/12/66', '8/17/72']

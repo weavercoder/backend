@@ -642,8 +642,6 @@ for i in range(8):
         small1 = a
 print('Two smallest:', small1, small2)
 
-
-
 #15 Generate sequence a_n = 2a_{n-1}+a_{n-2}, a_0=a_1=1
 n = eval(input('Enter n: '))
 a = 1
@@ -2570,8 +2568,8 @@ for line in lines:
     team = L[1]
     home_runs = L[8]
     average = L[14]
-    if int(home_runs) >= 20 and float(average) >= .300:
-        print(name, team, home_runs, average)
+   # if int(home_runs) >= 20 and float(average) >= .300:
+   #     print(name, team, home_runs, average)
 
 
 
@@ -2715,7 +2713,7 @@ else:
 
 
 
-#19 Read multiple_choice.txt and reorder the answer choices of each question.
+'''#19 Read multiple_choice.txt and reorder the answer choices of each question.
 from random import shuffle
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
@@ -2736,7 +2734,7 @@ for line in lines:
 shuffle(choices)
 for i in range(len(choices)):
     print('(' + alphabet[i] + ')', choices[i], file=output_file)
-output_file.close()
+output_file.close()'''
 
 
 
@@ -2850,16 +2848,16 @@ print(add_up_range(3, 10, 2))
 
 
 #7 phi --- Returns Euler phi function (how many numbers are relatively prime to a number)
-from fractions import gcd
+#from fractions import gcd
 
-def phi(n):
+'''def phi(n):
     count = 0
     for i in range(1, n):
         if gcd(n, i) == 1:
             count += 1
     return count
 
-print(phi(12), phi(13))
+print(phi(12), phi(13))'''
 
 
 

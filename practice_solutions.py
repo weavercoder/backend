@@ -540,7 +540,6 @@ for i in range(10000):
 print('Percentage of doubles:', 100*count/10000)
 
 
-
 #9 Simulation to estimate probability of a Yahtzee
 from random import randint
 

@@ -46,7 +46,7 @@ for i in range(10):
 print('there are',count1,'numbers > 10 in 10 ')
 print('there are',count2,'numbers==0 in 10 ')
 
-'''
+
  
  #A program that counts how  many of squares from 1**2 
 
@@ -55,3 +55,21 @@ for i in range (1,101):
     if (i**2) % 10 == 4:
         count = count+1
     print(count)    
+
+
+#Add up numbers from 1 to 100  (swapping)
+
+s=0
+for i in range(1,101):
+    s=s+i
+print('The sum is',s)
+
+'''
+
+s=0
+for i in range(10):
+    num = eval(input('Enter number:  '))
+      
+    s=s+num
+print('The average is',s/10)
+

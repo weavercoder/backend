@@ -72,7 +72,7 @@ for i in range(10):
     s=s+num
 print('The average is',s/10)
 
-'''
+
 #a pogram using Flag
 
 num= eval(input('enter number: '))
@@ -85,3 +85,48 @@ if Flag == 1:
     print('Not prime:  '  )
 else:
     print('prime')
+
+
+from re import I
+from typing import Concatenate
+
+
+#Concatenation
+s=''
+for i in range(10):
+    t=input('Enter a letter: ')
+    if t==' a'or t=='e' or t=='i' or t=='o' or t== 'u' :
+        s= s+t
+print(s)
+
+
+
+#A pogram that get a fibonacci sequence from the input by the user
+def generate_fibonacci(n):
+    fibonacci_sequence=[0,1]
+
+
+    for _ in range(2,n):
+        next_term= fibonacci_sequence[-1] + fibonacci_sequence[-2]
+        fibonacci_sequence.append(next_term)
+    return fibonacci_sequence
+n_term=eval(input('Enter the term:   '))
+    
+result= generate_fibonacci(n_term)
+
+print('the sequence for',n_term,'is',result)
+
+'''
+#Digital summing (involves get summing Digits of  an intenger)
+
+
+from unittest import result
+
+
+
+def digital_sum(num):
+
+        return sum(int(digit) for digit in str(num))
+term=eval(input('Enter the number:  '))
+result= digital_sum(term)
+print (result)

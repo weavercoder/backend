@@ -116,7 +116,7 @@ result= generate_fibonacci(n_term)
 
 print('the sequence for',n_term,'is',result)
 
-'''
+
 #Digital summing (involves get summing Digits of  an intenger)
 
 
@@ -130,3 +130,13 @@ def digital_sum(num):
 term=eval(input('Enter the number:  '))
 result= digital_sum(term)
 print (result)
+'''
+#a program that takes lists of strings and adds ! at the end of each string in the list
+def  excitement_modify(original_list):
+    for i in range (len(original_list)):
+        original_list[i] += '!'
+my_list = ["Hello" ,"world" ,"python"]
+
+excitement_modify(my_list)
+
+print(my_list)

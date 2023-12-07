@@ -64,7 +64,6 @@ for i in range(1,101):
     s=s+i
 print('The sum is',s)
 
-'''
 
 s=0
 for i in range(10):
@@ -73,3 +72,16 @@ for i in range(10):
     s=s+num
 print('The average is',s/10)
 
+'''
+#a pogram using Flag
+
+num= eval(input('enter number: '))
+
+Flag =0
+for i in range (2,num):
+    if num % i == 0:
+        Flag = 1
+if Flag == 1:
+    print('Not prime:  '  )
+else:
+    print('prime')

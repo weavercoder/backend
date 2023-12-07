@@ -1,4 +1,4 @@
 
 
-for i in range(4):
-    print('kenya--' ,end='')
+for i in range(10):
+    print('^'*(i+1))

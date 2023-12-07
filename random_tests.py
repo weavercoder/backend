@@ -130,13 +130,28 @@ def digital_sum(num):
 term=eval(input('Enter the number:  '))
 result= digital_sum(term)
 print (result)
-'''
+
 #a program that takes lists of strings and adds ! at the end of each string in the list
 def  excitement_modify(original_list):
     for i in range (len(original_list)):
         original_list[i] += '!'
-my_list = ["Hello" ,"world" ,"python"]
+
+my_list =["Hello" ,"world" ,"python"] 
 
 excitement_modify(my_list)
 
 print(my_list)
+'''
+#a program that takes numbers and adds ! at the end of each number in the list
+
+def exclam_numbers(n):
+    for i in range(len(n)):
+        n[i] += 'Kgs'
+    #return exclam_numbers
+
+list = ['a','2','d','4','5','6','7','8','8','9']
+
+exclam_numbers(list)
+
+print(list)
+
